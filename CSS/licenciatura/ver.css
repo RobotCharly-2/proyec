@@ -1,0 +1,190 @@
+body {
+    background-color: #273f67;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+.nav {
+    position: fixed;
+}
+
+.nav li a {
+    background-color: #273f67;
+}
+
+.nav>li {
+    float: left;
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 100;
+}
+
+.nav li:hover>ul {
+    display: block;
+}
+
+ul {
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+li {
+    width: 150px;
+    line-height: 30px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+img {
+    width: 150px;
+    float: left;
+    margin-right: 25px;
+}
+
+h2 {
+    color: white;
+    margin: 0%;
+    padding: 0%;
+}
+
+.nav li a:hover {
+    background-color: white;
+    color: #273f67;
+}
+
+
+/* .licen ul {
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+.licen a {
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+.licen>li {
+    width: 450px;
+    height: 50px;
+    display: inline-block;
+    text-align: left;
+} */
+
+.lis1 a:hover {
+    background-color: rgba(39, 63, 103, 0.8);
+    color: white;
+    border-radius: 10px;
+}
+
+.container {
+    margin: 50px;
+    padding: auto;
+    width: 300px;
+    display: flex;
+    text-align: center;
+}
+
+.lis1 li {
+    list-style: outside;
+    width: 160px;
+}
+
+.lis1 a {
+    color: black;
+    text-align: left;
+    list-style: outside;
+}
+
+.table1 {
+    background: rgb(194, 194, 194);
+    color: black;
+    margin: 20%;
+    padding: 10%;
+    border-radius: 50px;
+    box-shadow: 15px -15px 5px black;
+}
+
+.table1 h2 {
+    color: black;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100%;
+    font-family: "Open Sans";
+    padding-top: 30px;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover i {
+    color: aqua;
+}
+
+.footer-bottom {
+    background: #000;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
